@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    padding: 10%;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.row{
+    display: flex;
+}
+
+.col:first-child {
+    flex: 20%;
+}
+
+a:visited{
+    text-decoration: none;
+    color: blue;
+}
+
+.save{
+background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  position: fixed;
+  font-size: 16px;
+}
+
+button:hover {
+    background-color: #164e18;
+}
