@@ -17,10 +17,18 @@
 
 .row{
     display: flex;
+    padding: 1%;
+    justify-content: space-between;
 }
 
-.col:first-child {
-    flex: 20%;
+hr{
+    border: 10px solid green;
+    border-radius: 5px;
+  }
+
+.row:hover{
+    background-color: rgb(187, 187, 187);
+    color: whitesmoke;
 }
 
 a:visited{
@@ -29,14 +37,19 @@ a:visited{
 }
 
 .save{
-background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  position: fixed;
-  font-size: 16px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    position: fixed;
+    font-size: 16px;
+}
+
+.bold{
+    font-weight: 600;
+    border-color: black;
 }
 
 button:hover {
