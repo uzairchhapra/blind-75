@@ -4,7 +4,7 @@ links = ['https://leetcode.com/problems/two-sum', 'https://leetcode.com/problems
 const checked = JSON.parse(localStorage.getItem('checked')) ?? Array(names.length).fill('')
 node = document.querySelector('.values')
 for (let i = 0; i < names.length; i++) {
-    node.innerHTML += `<div class="row"><div class="col"><input type="checkbox" ${checked[i]}></div><div class="col"><a href="${links[i]}">${names[i]}</a></div></div>`
+    node.innerHTML += `<div class="row"><div class="col"><input type="checkbox" ${checked[i]}></div><div class="col"><a href="${links[i]}" target="_blank">${names[i]}</a></div></div>`
 }
 
 const save = (e) => {
